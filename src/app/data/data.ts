@@ -1,32 +1,35 @@
 
-import { FiDatabase, FiEye, FiFeather, FiHeart, FiMaximize, FiMonitor, FiNavigation2, FiPieChart, FiSmartphone, FiUserCheck } from "react-icons/fi"
+import { FiClock, FiActivity, FiMapPin, FiAlertCircle ,FiDatabase, FiEye, FiFeather, FiHeart, FiMaximize, FiMonitor, FiNavigation2, FiPieChart, FiSmartphone, FiUserCheck } from "react-icons/fi"
+
+// import { FiClock, FiActivity, FiMapPin, FiAlertCircle } from 'react-icons/fi';
 
 export const feature = [
     {
-        icon:FiMaximize,
-        title:'Fully functional',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        active:true
+        icon: FiClock,
+        title: 'Pengingat Obat Otomatis',
+        desc: 'Pengingat otomatis untuk jadwal minum obat lansia, memastikan perawatan kesehatan lebih teratur.',
+        active: true,
     },
     {
-        icon:FiPieChart,
-        title:'Secure Data',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        active:false
+        icon: FiActivity,
+        title: 'Data Kesehatan Real-time',
+        desc: 'Pantau detak jantung, tekanan darah, dan pola tidur lansia melalui dashboard interaktif.',
+        active: true,
     },
     {
-        icon:FiNavigation2,
-        title:'Track Location',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        active:true
+        icon: FiMapPin,
+        title: 'Pelacakan Lokasi & Aktivitas',
+        desc: 'Lacak lokasi, jumlah langkah, dan aktivitas harian lansia untuk memastikan keamanan mereka.',
+        active: true,
     },
     {
-        icon:FiDatabase,
-        title:'Data Analyse',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        active:false
+        icon: FiAlertCircle,
+        title: 'Fitur SOS',
+        desc: 'Tombol SOS untuk notifikasi darurat yang langsung diterima oleh keluarga atau caregiver.',
+        active: true,
     },
-]
+];
+
 
 export const feature2 = [
     {

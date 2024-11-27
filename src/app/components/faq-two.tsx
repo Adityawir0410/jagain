@@ -63,7 +63,7 @@ export default function FaqTwo() {
                     </div>
                 </div>
 
-                <div className="lg:me-8 order-2 md:order-1">
+                {/* <div className="lg:me-8 order-2 md:order-1">
                     <ReactWOW animation='fadeInUp'>
                         <div className="wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                             <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">FAQs</h6>
@@ -96,7 +96,7 @@ export default function FaqTwo() {
                             <Link href="#" className="hover:text-red-500 dark:hover:text-red-500 after:bg-red-500 dark:text-white transition duration-500 font-medium">Find Out More <i className="mdi mdi-arrow-right"></i></Link>
                         </div>
                     </ReactWOW>
-                </div>
+                </div> */}
             </div>
         </div>
   )

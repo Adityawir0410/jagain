@@ -80,48 +80,62 @@ export default function Home() {
           <AboutTwo />
         </div>
 
-      <section className="relative md:py-24 py-16" id="features">
-        <div className="container relative">
-          <div className="grid grid-cols-1 pb-6 text-center">
-            <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">Features</h6>
-            <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Discover Powerful Features</h4>
+        <section className="relative md:py-24 py-16" id="features">
+  <div className="container relative">
+    <div className="grid grid-cols-1 pb-6 text-center">
+      <h6 className="text-[#6D64E8] uppercase text-sm font-bold tracking-wider mb-3">Fitur Utama</h6>
+      <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold text-black">
+        Temukan Solusi untuk Lansia
+      </h4>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.
-            </p>
-          </div>
+      <p className="text-slate-500 max-w-xl mx-auto">
+        Aplikasi "JAGAIN" menghadirkan fitur-fitur inovatif untuk membantu keluarga dan caregiver memantau kondisi
+        kesehatan lansia secara real-time, meningkatkan keamanan, dan memberikan kenyamanan.
+      </p>
+    </div>
 
-          <FeaturesOne />
-        </div>
+    <FeaturesOne />
+  </div>
+</section>
 
-        {/* <div className="container relative md:mt-24 mt-16">
-          <AboutOne />
-        </div> */}
 
-        
-      </section>
+<section className="relative md:py-24 py-16 bg-white" id="screenshot">
+  <div className="container relative">
+    <div className="grid grid-cols-1 pb-6 text-center">
+      <h6 className="text-[#6D64E8] uppercase text-sm font-bold tracking-wider mb-3">Demo Prototype</h6>
+      <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold text-black">
+        Eksplorasi Antarmuka dan Fitur Kami
+      </h4>
 
-      <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="screenshot">
-        <div className="container relative">
-          <div className="grid grid-cols-1 pb-6 text-center">
-            <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">Screenshots</h6>
-            <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Simple & Beautiful Interface</h4>
+      <p className="text-slate-500 max-w-xl mx-auto">
+        Jelajahi bagaimana aplikasi "JAGAIN" bekerja melalui demo interaktif yang menampilkan fitur-fitur unggulan
+        kami untuk mendukung lansia dan keluarga.
+      </p>
+    </div>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.
-            </p>
-          </div>
-          <Screenshot />
-        </div>
-      </section>
+    <div className="flex justify-center mt-8">
+  <iframe
+    style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
+    width="400"
+    height="800"
+    src="https://embed.figma.com/proto/YxBHSM4kKfPqNCR41SP05Z/IMK-3?page-id=2%3A2&node-id=150-3170&node-type=frame&viewport=1200%2C491%2C0.33&scaling=contain&bg-color=FFFFFF&content-scaling=fixed&starting-point-node-id=185%3A884&share=1&embed-host=share"
+    allowFullScreen
+  ></iframe>
+</div>
+
+  </div>
+</section>
+
+
+
 
       <section className="relative overflow-hidden md:py-24 py-16" id="faqs">
         <Faq />
       </section>
 
-      <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="download">
+      {/* <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="download">
         <Download />
-      </section>
+      </section> */}
 
       <section className="relative md:py-24 py-16" id="reviews">
         <div className="container relative">
@@ -137,15 +151,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
+      {/* <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
         <Contact />
-      </section>
+      </section> */}
 
-      <section className="py-6 border-t border-b border-gray-100 dark:border-gray-800">
+      {/* <section className="py-6 border-t border-b border-gray-100 dark:border-gray-800">
         <div className="container relative">
           <Partner />
         </div>
-      </section>
+      </section> */}
 
       <Footer />
 
