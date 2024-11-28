@@ -137,7 +137,7 @@ export default function Home() {
         <Download />
       </section> */}
 
-      <section className="relative md:py-24 py-16" id="reviews">
+      {/* <section className="relative md:py-24 py-16" id="reviews">
         <div className="container relative">
           <div className="grid grid-cols-1 pb-6 text-center">
             <h6 className="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">Reviews</h6>
@@ -149,7 +149,7 @@ export default function Home() {
           </div>
           <Client />
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
         <Contact />
@@ -160,8 +160,8 @@ export default function Home() {
           <Partner />
         </div>
       </section> */}
-
-      <Footer />
+{/* 
+      <Footer /> */}
 
       <ScrollToTop />
       {/* <Switcher/> */}
