@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
+    "@vercel/speed-insights": "^1.1.0",
     "animate.css": "^4.1.1",
     "next": "14.2.13",
     "react": "^18",

@@ -160,8 +160,8 @@ export default function Home() {
           <Partner />
         </div>
       </section> */}
-{/* 
-      <Footer /> */}
+
+      <Footer />
 
       <ScrollToTop />
       {/* <Switcher/> */}
