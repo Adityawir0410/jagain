@@ -27,20 +27,14 @@ export default function AboutTwo() {
             untuk:
           </p>
           <ul className="list-none text-slate-400 mt-4">
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Memantau data kesehatan lansia secara real-time seperti detak jantung, tekanan darah, dan aktivitas harian.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Menerima notifikasi otomatis jika terdeteksi kondisi abnormal atau darurat.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Memberikan pengingat obat dan jadwal pemeriksaan.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Menampilkan data kesehatan melalui dashboard interaktif.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Mengintegrasikan data dengan pihak medis untuk tindakan yang lebih tepat waktu.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Melacak lokasi dan aktivitas harian lansia.</li>
-            <li className="mb-2 flex"><i className="mdi mdi-check text-red-500 text-xl me-2"></i> Menawarkan user interface yang ramah lansia, dengan desain intuitif dan mudah dipahami.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Memantau data kesehatan lansia secara real-time seperti detak jantung, tekanan darah, dan aktivitas harian.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Menerima notifikasi otomatis jika terdeteksi kondisi abnormal atau darurat.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Memberikan pengingat obat dan jadwal pemeriksaan.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Menampilkan data kesehatan melalui dashboard interaktif.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Mengintegrasikan data dengan pihak medis untuk tindakan yang lebih tepat waktu.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Melacak lokasi dan aktivitas harian lansia.</li>
+            <li className="mb-2 flex"><i className="mdi mdi-check text-[#C0BCF5] text-xl me-2"></i> Menawarkan user interface yang ramah lansia, dengan desain intuitif dan mudah dipahami.</li>
           </ul>
-
-          {/* <div className="mt-6">
-            <Link href="" className="hover:text-red-500 dark:hover:text-red-500 after:bg-red-500 dark:text-white transition duration-500 font-medium">
-              Learn More <i className="mdi mdi-arrow-right align-middle"></i>
-            </Link>
-          </div> */}
         </div>
       </div>
     </div>

@@ -63,6 +63,9 @@ module.exports = {
               3: '3',
               999: '999',
           },
+          colors: {
+            active: '#6D64E8',
+          },
       },
   },
 

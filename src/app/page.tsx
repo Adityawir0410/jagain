@@ -74,11 +74,13 @@ export default function Home() {
 
           </div>
         </div>
-      </section>
-
+      </section> 
+      <section id="overview">
       <div className="container relative md:mt-24 mt-16">
           <AboutTwo />
         </div>
+      </section>
+      
 
         <section className="relative md:py-24 py-16" id="features">
   <div className="container relative">
@@ -99,7 +101,7 @@ export default function Home() {
 </section>
 
 
-<section className="relative md:py-24 py-16 bg-white" id="screenshot">
+<section className="relative md:py-24 py-16 bg-white" id="interactive-prototype">
   <div className="container relative">
     <div className="grid grid-cols-1 pb-6 text-center">
       <h6 className="text-[#6D64E8] uppercase text-sm font-bold tracking-wider mb-3">Demo Prototype</h6>
@@ -129,7 +131,7 @@ export default function Home() {
 
 
 
-      <section className="relative overflow-hidden md:py-24 py-16" id="faqs">
+      <section className="relative overflow-hidden md:py-24 py-16" id="video-prototype">
         <Faq />
       </section>
 
@@ -160,6 +162,71 @@ export default function Home() {
           <Partner />
         </div>
       </section> */}
+
+<section className="relative md:py-24 py-16 bg-white" id="about-us">
+  <div className="container relative">
+    <div className="grid grid-cols-1 pb-6 text-center">
+      <h6 className="text-[#6D64E8] uppercase text-sm font-bold tracking-wider mb-3">Tentang Kami</h6>
+      <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold text-black">
+        Orang-orang di Balik JAGAIN
+      </h4>
+      <p className="text-slate-500 max-w-xl mx-auto">
+        Kami adalah tim yang berkomitmen untuk menciptakan solusi inovatif yang mendukung kesehatan dan kesejahteraan lansia.
+      </p>
+    </div>
+    <div className="grid grid-cols-1 gap-6 mt-10">
+      {/* Top Row with 3 Members */}
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
+        {/* Team Member 1 */}
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="w-24 h-24 bg-slate-300 mx-auto rounded-full flex items-center justify-center mb-4">
+            <i className="mdi mdi-account text-4xl text-gray-600"></i>
+          </div>
+          <h5 className="text-lg font-bold text-black">Anak Agung Ngurah Aditya W.</h5>
+          <p className="text-sm text-slate-500">235150207111067</p>
+        </div>
+        {/* Team Member 2 */}
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="w-24 h-24 bg-slate-300 mx-auto rounded-full flex items-center justify-center mb-4">
+            <i className="mdi mdi-account text-4xl text-gray-600"></i>
+          </div>
+          <h5 className="text-lg font-bold text-black">Achmad Alvian Prasetyo</h5>
+          <p className="text-sm text-slate-500">235150207111063</p>
+        </div>
+        {/* Team Member 3 */}
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="w-24 h-24 bg-slate-300 mx-auto rounded-full flex items-center justify-center mb-4">
+            <i className="mdi mdi-account text-4xl text-gray-600"></i>
+          </div>
+          <h5 className="text-lg font-bold text-black">A. Agung Ngurah Bayu W. P.</h5>
+          <p className="text-sm text-slate-500">235150207111066</p>
+        </div>
+      </div>
+      
+      {/* Bottom Row with 2 Members */}
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-6 md:px-24">
+        {/* Team Member 4 */}
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="w-24 h-24 bg-slate-300 mx-auto rounded-full flex items-center justify-center mb-4">
+            <i className="mdi mdi-account text-4xl text-gray-600"></i>
+          </div>
+          <h5 className="text-lg font-bold text-black">Made Deva Wikananda P.</h5>
+          <p className="text-sm text-slate-500">23515020711061</p>
+        </div>
+        {/* Team Member 5 */}
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="w-24 h-24 bg-slate-300 mx-auto rounded-full flex items-center justify-center mb-4">
+            <i className="mdi mdi-account text-4xl text-gray-600"></i>
+          </div>
+          <h5 className="text-lg font-bold text-black">Muhammad Arif Rifki</h5>
+          <p className="text-sm text-slate-500">235150200111066</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       <Footer />
 
